@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_gravity="center"
+    android:layout_height="match_parent"
+    tools:context=".HomeActivity">
+    <LinearLayout
+        android:layout_width="350dp"
+        android:layout_gravity="center"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="160dp"
+        android:orientation="vertical">
+
+        <EditText
+            android:layout_width="350dp"
+            android:layout_height="match_parent"
+            android:id="@+id/nama"
+            android:hint="nama saya siapa?"/>
+        <Button
+            android:layout_width="350dp"
+            android:id="@+id/changeactivity"
+            android:layout_height="wrap_content"
+            android:text="change activity"/>
+        <Button
+            android:layout_width="350dp"
+            android:id="@+id/changefragment"
+            android:layout_height="wrap_content"
+            android:text="change fragment"/>
+    </LinearLayout>
+
+</LinearLayout>
